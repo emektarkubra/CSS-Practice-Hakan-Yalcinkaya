@@ -1,0 +1,58 @@
+/*
+        SELECTORS (Tamamı W3 School-CSS Selector'de )
+
+1-) .class.class (.color-blue.fw-normal) -> 2 özellik birlikte yazılır
+        Mesela;
+            .color-blue.fw-normal {
+            color: blue; font-weight: normal;
+        } 
+
+2-) .class .class (.color-purple .fw-bold) -> bu sefer 2. özellik bir alt sınıfta olmalı 
+        Mesela;
+            <ul class="color-blue">
+                <li class="fw-normal">Lorem, ipsum dolaris!</li>
+            </ul>
+        ya da
+
+            <h1 class="color-purple">Vero, <span class="fw-bold">soluta</span>  perspiciatis.</h1> 
+            sadece soluta yazısı purple ve bold olur
+
+3-) element.class (p.intro) -> içinde intro class ı olan tüm p'ler
+4-) element,element	(div, p) ->	div ve p elementlerin tümü
+5-) element element	(div p) -> div içerisindeki tüm p elementleri
+6-) :first-child (p:first-child) -> Ebeveyninin ilk çocuğu olan her <p> öğesini seçer
+7-) :last-child (p:last-child) -> Ebeveyninin son çocuğu olan her <p> öğesini seçer
+8-) :nth-child(2) -> 2. öğe seçilir (mesela ul>li:nth-child(2) gibi) 
+     :nth-child(odd) -> 1, 3, 5 leri seçer
+     :nth-child(even) -> 2, 4, 6 ları seçer
+     :nth-child(3n) -> 3'er 3'er seçer
+     :nth-child(3n+1) -> 1, 4, 7 seçer
+     :nth-child(2n-1) -> 1, 3, 5, 7 seçer
+
+*/
+
+
+
+.color-blue.fw-normal {
+    color: blue; 
+    font-weight: normal;
+}
+
+.color-purple .fw-bold {
+    color: purple; 
+    font-weight: bold;
+}
+
+ul>li:first-child {
+    color: green;
+}
+
+ul>li:last-child {
+    color: red;
+}
+
+ul>li:nth-child(2) {
+    color: aqua;
+}
+
+

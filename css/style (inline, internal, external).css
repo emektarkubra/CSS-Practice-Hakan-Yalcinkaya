@@ -1,0 +1,30 @@
+/* 
+    CSS -> Cascading Style Sheets (Basamaklı Stil Şablonları)
+    
+    1.Inline CSS -> etiket içinde style kullanımı (ancak tek tek vermek zor olur)
+        <h1 style="color: deeppink; font-size: 64px;">CSS Deneme</h1>
+    2.Internal CSS -> head içerisine style etiketinde yazılır
+        <style>
+            h2 {
+                color: red;
+                font-size: 64px;
+            }
+            p {
+                color:green;
+                font-size: 40px;
+            }
+        </style>
+    3.External CSS -> head içerisinde link belirtilerek yazılır (eğer çok fazla dosyamız varsa tek dosyada style verilebilir)
+        link:css -> tab'a bas <link rel="stylesheet" href="kodluyoruz.css"> oluşur
+        tüm css içeriğini kodluyoruz.css dosyasına al 
+*/
+
+
+h2 {
+    color: purple;
+    font-size: 64px;
+}
+p {
+    color:green;
+    font-size: 40px;
+}

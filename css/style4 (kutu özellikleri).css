@@ -1,0 +1,66 @@
+/*  
+    div.container -> <div class="container"> ile kutu oluşur 
+    .container {} ile css'de özellikler girilir
+
+
+    İki kutu arasındaki mesafe -> margin
+        margin: 10px; -> her 4 tarafından 10px boşluk verir
+        margin-top: 10px -> sadece üst tarafından
+        margin-bottom: 10px -> sadece alt tarafından
+        margin-left -> sadece soldan
+        margin-right -> sadece sağdan
+
+
+    Bir kutunun içindekilerin ferahlığı -> padding 
+        padding: 10px; -> kutunun içerisindekiler içerde başlar
+
+
+    float-left -> sayfanın soluna getir
+    float- right -> sayfanın sağına getir
+
+
+    html'de div.clear açılır
+    .clear {           ->    css'de yazılır ve kutunun her iki tarafını temizler
+        clear: both;
+    }
+    
+
+    .container {        -> sağdan ve soldan otomatik ayarladığında ortaya gelir
+        margin-left: auto;
+        margin-right: auto;
+    }
+     
+    ya da
+
+    margin: 0px auto 0px auto
+
+
+    border-radius: 10px; -> kenarlara yuvarlaklık verir
+
+
+*/
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    float: left;
+    
+}
+.bg-red {
+    background-color: red;
+}
+.bg-green {
+    background-color: green;
+}
+
+.clear {
+    clear: both;
+}

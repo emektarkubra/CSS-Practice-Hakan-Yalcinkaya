@@ -1,0 +1,40 @@
+/* 
+    Açıklama satırı -> (ctrl+ö) 
+    
+    color: red;
+    background-color: black;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, sans-serif;
+        Eğer pc'de olmayan font istiyorsak;
+            font çeşitlerine W3 School'dan veya Google -> google fonts -> roboto seç -> istediğin stilleri seç -> 
+            linki kopyala -> html'de head kısmına yapıştır -> css kısmına da css stili kısmını kopyala yapıştır
+        Mesela;
+            <head>
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+            </head>
+                ve
+            font-family: 'Roboto', sans-serif;
+
+*/
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    color: red;
+}
+h2 {
+    color: purple;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+p {
+    color:green;
+    font-size: 40px;
+}
+ul {
+    color: blue;
+}

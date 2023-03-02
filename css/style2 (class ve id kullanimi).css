@@ -1,0 +1,39 @@
+/* 
+1-) Özellikleri id ve class ile verilebilir
+        class ->  .text-red {}      (birden fazla class olabilir)
+        id    ->  #id-bilgisi {}    (bir tane id vardır)
+2-) Etiketler birlikte yazılarak verilebilir
+        h1, h2, h3, h4, h5, h6 {}
+*/
+
+h3, h4 {
+    color: rgb(40, 184, 11);
+}
+
+.text-red {
+    color: red;
+}
+.text-purple {
+    color: purple;
+}
+
+.text-black {
+    color: black;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+#first-article {
+    background-color: aqua;
+
+}
